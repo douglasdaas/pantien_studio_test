@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Big Avocados",
+    "unitPrice": 1,
+    "quantity": 500,
+    "countryDestination": "Canada",
+    "countryOrigin": "Mexico",
+    "category": "agriculture"
+  },
+
+  {
+    "name": "Bigger Avocados",
+    "unitPrice": 1,
+    "quantity": 1000,
+    "countryDestination": "USA",
+    "countryOrigin": "Mexico",
+    "category": "agriculture"
+  },
+
+  {
+    "name": "Tesla Roadster",
+    "unitPrice": 120000,
+    "quantity": 200,
+    "countryDestination": "Germany",
+    "countryOrigin": "USA",
+    "category": "automotive"
+  },
+
+  {
+    "name": "Jägerschnitzel",
+    "unitPrice": 2,
+    "quantity": 25000,
+    "countryDestination": "Brazil",
+    "countryOrigin": "Germany",
+    "category": "meat"
+  },
+
+  {
+    "name": "Coffee",
+    "unitPrice": 1,
+    "quantity": 31000,
+    "countryDestination": "Germany",
+    "countryOrigin": "Brazil",
+    "category": "beverage"
+  }
+]

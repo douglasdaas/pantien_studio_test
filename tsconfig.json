@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["ES2020"],
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": false,
+    "target": "ES2019",
+    "outDir": "dist",
+    "module": "esnext",
+    "strict": true,
+
+    "types": ["jest", "node"],
+
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "incremental": true,
+    "watch": true
+  },
+  "include": [
+    "./**/*.ts",
+    "./**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    ".serverless/**/*",
+    ".webpack/**/*",
+    "_warmup/**/*",
+    ".vscode/**/*",
+    "*.config.js"
+  ]
+}

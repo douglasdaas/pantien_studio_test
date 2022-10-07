@@ -1,0 +1,32 @@
+[
+  {
+    "country": "Canada",
+    "importTaxRate": 0.10,
+    "categoryExceptions": ["agriculture"]
+  },
+  {
+    "country": "Mexico",
+    "importTaxRate": 0.08,
+    "categoryExceptions": ["automotive", "clothing"]
+  },
+  {
+    "country": "USA",
+    "importTaxRate": 0.10,
+    "categoryExceptions": ["agriculture", "beverage"]
+  },
+  {
+    "country": "Germany",
+    "importTaxRate": 0.12,
+    "categoryExceptions": ["clothing"]
+  },
+  {
+    "country": "Brazil",
+    "importTaxRate": 0.06,
+    "categoryExceptions": ["beverage"]
+  },
+  {
+    "country": "Venezuela",
+    "importTaxRate": 0.03,
+    "categoryExceptions": []
+  }
+]
