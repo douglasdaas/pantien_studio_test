@@ -77,6 +77,9 @@ export function findTagCounts(localData: Array<SampleDateRecord>): Array<TagCoun
  *  - total cost = import cost + (unit price * quantity)
  *  - the "importTaxRate" is based on they destination country
  *  - if the imported item is on the "category exceptions" list, then no tax rate applies
+ *
+ * @param importedItems array of objects
+ * @returns array of objects
  */
 export function calculateImportCost(importedItems: Array<ImportedItem>): Array<ImportCostOutput> {
   const importedCostItems: Array<ImportCostOutput> = []
