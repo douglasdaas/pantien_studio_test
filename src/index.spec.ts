@@ -11,7 +11,7 @@ describe('Test returnSiteTitles', () => {
     expect(titles[0]).toBe('PatientStudio - Integrated EMR, Practice Management and Billing Software')
     expect(titles[1]).toBe('Star Trek (Official Site)')
     expect(titles[2]).toBe('StarWars.com | The Official Star Wars Website')
-    expect(titles[3]).toBe('Neowin - Where unprofessional journalism looks better')
+    expect(titles[3]).toBe('Tech News, Reviews & Betas | Neowin')
   })
 })
 
@@ -33,7 +33,7 @@ describe('Test findTagCounts', () => {
 
 describe('Test calculatePriceWithTaxes', () => {
   it('should return results in the correct format', () => {
-    const results = testFunctions.calcualteImportCost(importedItems)
+    const results = testFunctions.calculateImportCost(importedItems)
 
     expect(results).toEqual(
       expect.arrayContaining([
@@ -48,7 +48,7 @@ describe('Test calculatePriceWithTaxes', () => {
   })
 
   it('should calculate the correct import cost for each item', () => {
-    const results = testFunctions.calcualteImportCost(importedItems)
+    const results = testFunctions.calculateImportCost(importedItems)
 
     const coffee = results.find(r => r.name === 'Coffee')
     const bigAvocados = results.find(r => r.name === 'Big Avocados')
